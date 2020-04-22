@@ -1,8 +1,8 @@
 {
-  "name": "app",
-  "short_name": "app",
-  "theme_color": "#1976d2",
-  "background_color": "#fafafa",
+  "name": "App Restaurante",
+  "short_name": "Aplicativo do seu restaurante",
+  "theme_color": "#c2a747",
+  "background_color": "#ab8750",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",

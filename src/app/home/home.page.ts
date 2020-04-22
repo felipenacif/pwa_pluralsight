@@ -1,4 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
+import { NavController } from '@ionic/angular';
+
 
 @Component({
   selector: 'app-home',
@@ -6,6 +8,10 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage implements OnInit, OnDestroy {
+
+  constructor(private nav: NavController) {
+
+  }
 
   listaDados: any[] = [{
     id: 1,
@@ -23,11 +29,7 @@ export class HomePage implements OnInit, OnDestroy {
     estado: "RJ"
   }]
 
-  constructor() {
-
-  }
-
-
+  
   ngOnInit(): void{
 
   }
